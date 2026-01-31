@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Chromium Search Bar",
   "description": "A dedicated search bar extension for Chromium-based browsers. Brings back the classic separate search bar with Kagi as default. Supports Google, DuckDuckGo, Yahoo, Ecosia, and Kagi.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icons": {
     "16": "icons/icon16.png",
     "32": "icons/icon32.png",

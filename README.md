@@ -10,30 +10,33 @@ Modern browsers have merged the search bar with the address bar (URL bar), creat
 
 - **Multiple Search Engines**: Choose from Kagi (default), Google, DuckDuckGo, Yahoo, or Ecosia
 - **Live Search Suggestions**: Get real-time search suggestions as you type
+- **Open in New Tab**: Optionally open search results in a new tab (configurable in settings)
 - **Omnibox Integration**: Type `k` followed by a space in the URL bar for quick search access
 - **Keyboard Shortcuts**: Press `Ctrl+Shift+K` (or `Cmd+Shift+K` on Mac) to open the search popup
 - **Modern Dark Theme**: Clean, modern interface
-- **Customizable Settings**: Configure suggestion count, new tab behavior, and more
+- **Customizable Settings**: Configure search engine, suggestion count, new tab behavior, and more
 - **Cross-Platform**: Works on Windows, macOS, and Linux
 
 ## Installation
 
-### From Release (.crx)
+### From Release (.zip)
 
-1. Download the latest `.crx` file from the [Releases](../../releases) page
-2. Open your Chromium-based browser (Chrome, Edge, Brave, Vivaldi, etc.)
-3. Navigate to `chrome://extensions/`
-4. Enable "Developer mode" (toggle in the top-right corner)
-5. Drag and drop the `.crx` file onto the extensions page
+1. Download the latest `.zip` file from the [Releases](../../releases) page
+2. Extract the zip file to a folder on your computer
+3. Open your Chromium-based browser (Chrome, Edge, Brave, Vivaldi, etc.)
+4. Navigate to `chrome://extensions/`
+5. Enable "Developer mode" (toggle in the top-right corner)
+6. Click "Load unpacked"
+7. Select the extracted folder
 
-### From Source (Developer Mode)
+### From Source
 
 1. Clone or download this repository
 2. Open your Chromium-based browser
 3. Navigate to `chrome://extensions/`
 4. Enable "Developer mode" (toggle in the top-right corner)
 5. Click "Load unpacked"
-6. Select the extension directory
+6. Select the repository folder (containing `manifest.json`)
 
 ## Usage
 
