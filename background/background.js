@@ -1,4 +1,4 @@
-// Comet Search Bar - Background Service Worker
+// Chromium Search Bar - Background Service Worker
 // Handles omnibox functionality and search operations
 
 // Search engine configurations
@@ -147,7 +147,7 @@ async function performSearch(query, openInNewTab = null) {
 
 // Set default suggestion when user types the keyword
 chrome.omnibox.setDefaultSuggestion({
-  description: 'Search with Comet Search Bar: %s'
+  description: 'Search with Chromium Search Bar: %s'
 });
 
 // Handle input changes in omnibox
@@ -249,7 +249,7 @@ chrome.runtime.onInstalled.addListener(async (details) => {
   if (details.reason === 'install') {
     // Set default settings
     await chrome.storage.sync.set(DEFAULT_SETTINGS);
-    console.log('Comet Search Bar installed with default settings');
+    console.log('Chromium Search Bar installed with default settings');
   }
 });
 

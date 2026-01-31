@@ -1,4 +1,4 @@
-// Comet Search Bar - Options Page Script
+// Chromium Search Bar - Options Page Script
 
 // Search engines configuration
 const SEARCH_ENGINES = {

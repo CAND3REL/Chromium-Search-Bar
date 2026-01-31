@@ -1,4 +1,4 @@
-// Comet Search Bar - Popup Script
+// Chromium Search Bar - Popup Script
 
 // DOM Elements
 const searchInput = document.getElementById('search-input');

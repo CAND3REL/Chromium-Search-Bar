@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Comet Search Bar",
-  "description": "A dedicated search bar extension for Comet Browser with Kagi as default search engine. Supports Google, DuckDuckGo, Yahoo, Ecosia, and Kagi.",
+  "name": "Chromium Search Bar",
+  "description": "A dedicated search bar extension for Chromium-based browsers. Brings back the classic separate search bar with Kagi as default. Supports Google, DuckDuckGo, Yahoo, Ecosia, and Kagi.",
   "version": "1.0.0",
   "icons": {
     "16": "icons/icon16.png",
@@ -16,7 +16,7 @@
       "32": "icons/icon32.png",
       "48": "icons/icon48.png"
     },
-    "default_title": "Comet Search Bar"
+    "default_title": "Chromium Search Bar"
   },
   "omnibox": {
     "keyword": "k"
