@@ -241,8 +241,8 @@ async function performSearch() {
   }
 
   try {
-    // Check if Ctrl/Cmd is held for new tab
-    const openInNewTab = false; // Popup always opens in current tab by default
+    // Use the setting from options, or null to let background script decide
+    const openInNewTab = currentSettings?.openInNewTab ?? null;
 
     await chrome.runtime.sendMessage({
       action: 'search',
